@@ -1,0 +1,543 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+/* NAVBAR CSS */
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+}
+
+.navbarleft{
+    display: flex;
+    padding-top: 10px;
+    
+}
+
+.navbarleft h4{
+    font-size: 30px;
+    padding-left: 5px;
+    font-family: sans-serif;
+    color: #fff;    
+}
+
+.navbarmid{
+    padding-top: 9px;
+}
+.navbarmid ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px 50px;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.navbarright{
+    display: flex;
+    padding-top: 10px;
+}
+
+.bx{
+    color: #fff;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+#navBar{
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+}
+
+/* SECTION-1 CSS */
+
+.section-1{
+    height: 100vh;
+    display: flex;
+    margin-top: 5em;
+    justify-content: center;
+    width: 70%;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    text-align: center;
+}
+
+.homeImage{
+    height: 32em; 
+    filter: drop-shadow(0px 0px 15px yellowgreen);
+    
+}
+
+.section-1-right{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+h2 span{
+    color:rgb(114, 206, 72);
+}
+
+.section-1-right h2{
+    line-height: 5rem;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+.section-1-right p{
+    font-size: 18px;
+    padding:0 5px 30px 30px ; 
+    line-height: 30px;
+    
+}
+
+.section-1-right-btn{
+    display: flex;
+    align-items: center;
+}
+
+.section-1-right-btn button{
+    width: 12rem;
+    background-color: #fff;
+    font-family: 'poppins',sans-serif;
+    font-size: 20px; 
+    position: relative;
+    height: 50px;
+}
+
+.section-1-right-btn i:hover{
+    transform: rotate(-50deg);
+    transition: 1s ease;
+}
+
+.section-1-right-btn i:not(:hover){
+    transform: rotate();
+    transition: 1s ease;
+}
+
+.section-1-right-btn i{
+    z-index: 1;
+    position: absolute;
+    background-color: yellowgreen;
+    color: black;
+    margin: 5px;
+    width: 40px;
+    font-size: 20px;
+    height: 38px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.section-1-right-btn button{
+    border: 2px solid transparent ;
+    border-radius: 50px;
+    text-align: end;
+    padding-right: 30px;
+}
+
+.section-1-right-btn p{
+    font-size: small;
+    letter-spacing: 1px;
+    align-items: center;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+/* SECTION-2 CSS */
+
+.section-2{
+    height: 50rem;
+}
+
+.section-2-div{
+    display: flex;
+    width: 100%;
+}
+
+.section-2-left{
+    width: 50%;
+    padding: 80px;
+    
+}
+
+.section-2-left h2{
+    color: #fff;
+    font-family: sans-serif; 
+    padding-top: 15rem;   
+}
+
+.section-2-left p{
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 20px;
+}
+
+.section-2-right{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-2-right img{
+    height: 150px;
+    width: 180px;
+}
+.card1,.card2,.card3{
+    height: 200px;
+    width: 180px;
+    background-image: linear-gradient(to bottom right,black,rgb(70, 99, 12));
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+    font-family: sans-serif;
+    position: relative;
+    transform:rotate(-10deg);
+}
+
+.card2{
+    margin-left: 25em;
+    transform: rotate(10deg);
+}
+
+
+.card1 img{
+    position: absolute;
+    left: -1px;
+    top: -50px;
+}
+
+.card2 img{
+    position: absolute;
+    left: -1px;
+    top: -50px;
+}
+
+.card3 img{
+    position: absolute;
+    left:-1px;
+    top: -50px;
+}
+
+.card1 img:hover,.card2 img:hover,.card3 img:hover{
+    transition: 1s ease;
+    transform: translateY(-30px);
+}
+
+.card1 img:not(:hover),.card2 img:not(:hover),.card3 img:not(:hover){
+    transition: 1s ease;
+    transform: translateY();
+}
+
+.card1 h3,.card2 h3,.card3 h3{
+    position:absolute;
+    top: 150px;  
+}
+
+.card2 h3,.card3 h3{
+    left: 20px;
+}
+
+/* SECTION-3 CSS */
+
+.section-3{
+    margin-top: 90px;
+    width: 100%;
+}
+.section-3 h2{
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.elements{
+    width: 80%;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 50px;
+    padding-left: 80px;
+}
+.elements img{
+    height: 150px;
+    width: 180px;
+}
+
+.card{
+    width: 200px;
+    height: 270px;
+    background-image: linear-gradient(to bottom right,black,rgb(70, 99, 12));
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+    font-family: sans-serif;
+    padding: auto;
+}
+
+.card .pricetag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricetag span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: 10px;
+}
+.pricetag i{
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.card img:hover{
+    transition: 1s ease;
+    transform: translateY(-30px);
+}
+
+.card img:not(:hover){
+    transition: 1s ease;
+    transform: translateY();
+}
+
+/* SECTION-3 CSS */
+
+.section-3-container{
+    display: flex;
+    flex-basis: 50% ;
+    margin: 80px;
+}
+
+.container-left img{
+    margin:20px 40px;
+    height: 30em;
+    filter:drop-shadow(0px 0px 15px greenyellow);
+}
+
+.container-right{
+    font-family:sans-serif;
+    font-weight: 100;
+    padding: 40px;
+    position: relative;
+}
+
+.container-right div{
+    display: flex;
+    margin: 30px;
+    line-height: 30px;
+    
+}
+
+.container-right p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.container-right i{
+    color: yellowgreen;
+    font-size: 20px;
+    position: absolute;
+    left: -1px;
+}
+
+/* SECTION-4 CSS */
+
+.section-4{
+    height: 500px;
+    width: 100%;
+    color: #fff;
+}
+
+.section-4 h2{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.container4{
+    display: flex;
+    margin: 90px;
+    justify-content: space-around;
+}
+
+.container-4-left{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.container-4-left h4{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+.container4mid span,.container4bottom span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: var(--fw-light);
+}
+.socialmedia i{
+    color: yellowgreen;
+}
+
+.socialmedia i:hover{
+    font-size: 30px;
+    transition: 0.2s ease ;
+}
+
+.socialmedia i:not(:hover){
+    transition: 0.2s ease;
+}
+
+.container-4-right{
+    height: 400px;
+    width: 50%;
+}
+
+.container-4-right img{
+    height: 25em;
+    filter:drop-shadow(0px 0px 15px greenyellow);
+}
+
+/* SECTION-5 CSS */
+
+.section-5{
+    margin-top: 150px;
+    height: 500px;
+}
+.container5{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.section-5 h2{
+    text-align: center;
+    color: rgb(177, 229, 74);
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.inputform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 28%;
+}
+
+.inputform label{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: large;
+    padding-left: 12px;
+    font-weight: lighter;
+}
+.inputform input{
+    height: 35px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(177, 229, 74);
+    padding: 2px;
+}
+
+input::placeholder{
+    font-family: sans-serif;
+    color:rgb(90, 100, 109);
+}
+
+.inputform button{
+    width: 100px;
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: yellowgreen;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.inputform button:hover{
+    background: rgb(95, 123, 38);
+    
+}
+
+/* FOOTER CSS */
+
+.footer-content{
+    height: 200px;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content h4{
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: var(--fw-light);
+}
+
+.footer-content .navbarleft{
+    flex-basis: 50%;
+}
+
+.footer-content p{
+    color: #fff;
+}
+.company,.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.company a,.info a{
+    font-size: 15px;
+    color: grey;
+    line-height: 30px;
+}
+
+.brands i{
+    color: yellowgreen;
+    transition: 0.2s ease;
+}
+
+.brands i:hover{
+    font-size: 30px;
+    transition: 0.2s ease;
+}
