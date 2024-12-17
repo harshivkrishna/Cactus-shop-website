@@ -1,0 +1,17 @@
+.shop {
+  .title {
+    margin-top: 100px !important;
+  }
+  .cac-card {
+    background: rgb(0, 0, 0) !important;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.7259278711484594) 28%,
+      rgba(119, 184, 66, 0.8883928571428571) 83%
+    ) !important;
+  }
+  .cac-img:hover {
+    transform: translate(0, -20px);
+    transition: all 0.3s ease-in-out;
+  }
+}

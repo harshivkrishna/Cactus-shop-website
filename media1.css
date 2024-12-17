@@ -1,0 +1,43 @@
+@media screen and (max-width:450px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .section-1{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 100px;
+        height: 80vh;
+        max-width: max-content;
+        
+    }
+    .homeImage{
+        height: 300px;
+    }
+
+    .section-1-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-1-right{
+        font-size: 15px;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-2{
+        margin-top: 5rem;
+    }
+
+    .section-2-div{
+        flex-direction: column;
+    }
+    .section-2-left{
+        width: 100%;
+
+    }
+}
